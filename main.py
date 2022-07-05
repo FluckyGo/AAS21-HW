@@ -39,7 +39,7 @@ but1.place(relx=0.3, rely=0.5, anchor=CENTER)
 but2 = Label(root)
 but2.place(relx=0.7, rely=0.5, anchor=CENTER)
 
-root.bind('1', img)
+root.bind('<1>', img)
 img('event')
 
 root.mainloop()
