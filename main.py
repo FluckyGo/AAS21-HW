@@ -10,7 +10,7 @@ def drop():
 # Функция для подставоения картинок
 def img(event):
     global b1, b2
-    for i in range(12):
+    for i in range(18):
         b1 = PhotoImage(file=(drop()))
         b2 = PhotoImage(file=(drop()))
         but1['image'] = b1
